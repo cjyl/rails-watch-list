@@ -3,7 +3,7 @@
   <h2 class="mb-3">Create a new list</h2>
   <%= simple_form_for [@list] do |f| %>
     <%= f.input :name %>
-    <%# <%= f.input :photo %> %>
+    <%= f.input :photo %>
     <%= f.submit class: 'btn btn-success' %>
   <% end %>
 </div>
